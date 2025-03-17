@@ -53,23 +53,6 @@ $ npx cypress run
  ┣ 📜 package.json  # Dependências do projeto  
  ┗ 📜 README.md  # Documentação  
 
-📝 Exemplo de Teste
-
-describe('Comparação da API com mock', () => {
-  it('Valida a estrutura e os dados da resposta', () => {
-    cy.request('GET', 'https://api.thedogapi.com/v1/breeds').then((response) => {
-      cy.fixture('mockData.json').then((mockedData) => {
-        expect(response.status).to.eq(200);
-        expect(response.body).to.have.length(mockedData.length);
-        response.body.forEach((breed, index) => {
-          expect(breed.name).to.eq(mockedData[index].name);
-          expect(breed.origin).to.eq(mockedData[index].origin);
-        });
-      });
-    });
-  });
-});
-
 📌 Considerações Finais
 
 Este projeto ajuda a garantir a integridade das versões da API, verificando possíveis alterações nos dados expostos. Caso encontre divergências, o script detalha as diferenças no log dos testes.
