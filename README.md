@@ -41,17 +41,17 @@ $ npx cypress run
 
 📂 Estrutura do Projeto
 
-📦 seu-repositorio
- ┣ 📂 cypress
- ┃ ┣ 📂 e2e
- ┃ ┃ ┗ 📜 desafio.cy.js  # Testes de comparação da API
- ┃ ┣ 📂 fixtures
- ┃ ┃ ┗ 📜 mockData.json  # Dados mockados para comparação
- ┃ ┣ 📂 support
- ┃ ┃ ┗ 📜 commands.js  # Comandos customizados do Cypress
- ┣ 📜 cypress.config.js  # Configuração do Cypress
- ┣ 📜 package.json  # Dependências do projeto
- ┗ 📜 README.md  # Documentação
+📦 seu-repositorio  
+ ┣ 📂 cypress  
+ ┃ ┣ 📂 e2e  
+ ┃ ┃ ┗ 📜 desafio.cy.js  # Testes de comparação da API  
+ ┃ ┣ 📂 fixtures  
+ ┃ ┃ ┗ 📜 mockData.json  # Dados mockados para comparação  
+ ┃ ┣ 📂 support  
+ ┃ ┃ ┗ 📜 commands.js  # Comandos customizados do Cypress  
+ ┣ 📜 cypress.config.js  # Configuração do Cypress  
+ ┣ 📜 package.json  # Dependências do projeto  
+ ┗ 📜 README.md  # Documentação  
 
 📝 Exemplo de Teste
 
