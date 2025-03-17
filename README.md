@@ -1,6 +1,6 @@
 Comparação de Versões de API com Cypress
 
-📌 Descrição do Projeto
+📌 Descrição do Projeto
 
 Este projeto tem como objetivo comparar a versão mais recente de uma API com uma versão mockada para validar a consistência dos dados. Os testes automatizados verificam:
 
